@@ -1,0 +1,10 @@
+cava/config
+eww/colors.scss
+fastfetch/config.jsonc
+gtk-3.0/colors.css
+gtk-4.0/colors.css
+hypr/conf/colors.conf
+kitty/colors.conf
+wlogout/colors.css
+wofi/colors.css
+wofi/style.css
