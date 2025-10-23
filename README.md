@@ -1,4 +1,6 @@
-# **Minimalistic Hyprland Theme**
+# **HyprLAM**
+
+*A minimalistic dotfile for hyprland desktops, inspired by the works of LAM*
 
 ![Screenshot](screenshot/screenshot-1761254259.png)
 
