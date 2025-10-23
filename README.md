@@ -1,5 +1,4 @@
-Minimalistic Hyprland Theme
-
+**Minimalistic Hyprland Theme**
 
 ![alt text](screenshot/screenshot-1761254259.png)
 
