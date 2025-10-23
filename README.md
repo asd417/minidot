@@ -20,6 +20,4 @@ Check out [**LAM’s work on Pixiv**](https://www.pixiv.net/en/users/17429)!
 
 
 ## Demo
-<video src="screenshot/hyprLAM-rice.mp4" width="800" controls autoplay loop muted>
-  Your browser does not support the video tag.
-</video>
+![Reddit](https://www.reddit.com/r/unixporn/comments/1obavy3/hyprland_hyprlam_my_second_rice/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
