@@ -1,0 +1,178 @@
+@import "colors.scss"
+
+
+/** Global *******************************************/
+*{
+	all: unset;
+	font-family: feather;
+	font-family: "JetBrains Mono";
+	color: #151515;
+}
+
+.tooltip {
+  color: #fff;
+  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+  border: 1px solid #444;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+/** Bar ***********************************/
+.dockboxcenter {
+	background-color: transparentize($background, 0.2);
+	border: 0px;
+	border-radius: 0px 12px 12px 0px ;
+
+}
+
+.dockboxtop {
+	background-color: transparentize($background, 0.2);
+	border: 0px;
+	border-radius: 0px 0px 12px 0px ;
+}
+
+.dockboxbottom {
+	background-color: transparentize($background, 0.2);
+	border: 0px;
+	border-radius: 0px 12px 0px 0px ;
+}
+
+
+/** Icons ***********************************/
+
+.appicon {
+    background-repeat: no-repeat;
+	background-size: 40px;
+	min-height: 40px;
+	min-width: 40px;
+}
+
+
+
+/** Clock ********************************************/
+.monthtext {
+	color: $primary-fixed;
+	font-weight: bold;
+	font-size : 14px;
+	min-height: 0; 
+	margin : 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+}
+.daytext {
+	color: $primary-fixed;
+	font-weight: bold;
+	font-size : 12px;
+	min-height: 0; 
+	margin : 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+}
+
+/** Weather ********************************************/
+.weatherbox {
+	margin : 0px 0px 0px -90px;
+}
+
+.weathericon {
+	font-family: Iosevka Nerd Font;
+	font-size : 32px;
+	font-weight : normal;
+}
+
+.weathertemp {
+	font-size : 22px;
+	font-weight : bold;
+	margin : 0px 0px 0px -5px;
+	color: #161616;
+}
+
+/** Music *************************************************/
+.album_art {
+    background-repeat: no-repeat;
+	background-size: 35px;
+	min-height: 35px;
+	min-width: 35px;
+	margin: 5px 0px 0px 5px;
+	//border-radius: 6px;
+}
+
+.musicbuttons {
+	margin : 0px 0px 0px 0px;
+}
+
+.scrolltext {
+	min-height: 35px;
+}
+
+.playtext {
+	color: $primary;
+	font-weight: bold;
+	font-size : 20px;
+	min-height: 0; 
+	margin: 0;
+	padding: 0;
+}
+
+.playbutton:hover .playtext {
+  color:  $primary-fixed;
+}
+
+
+.playbutton {
+	min-height: 25px;
+	min-width: 25px;
+	margin: 10px;
+}
+
+.trackbutton {
+    background-repeat: no-repeat;
+	background-size: 18px;
+	min-height: 18px;
+	min-width: 18px;
+	margin: 3px 0px 0px 0px;
+}
+
+.vol trough {
+  background: $surface_dim;
+  border-radius: 8px;
+}
+.vol highlight {
+  background: linear-gradient(90deg,$primary, $primary-fixed);
+  border-radius: 8px;
+}
+.vol slider {
+  min-width: 14px; min-height: 14px;
+  background: transparent;
+  border-radius: 999px;
+  //box-shadow: 0 0 0 2px rgba(0,0,0,0.25);
+}
+.vol {
+	margin: 0px 0px 10px 0px;
+}
+
+/** System *************************************************/
+
+
+.trayicon {
+    background-repeat: no-repeat;
+	background-size: 24px;
+	min-height: 24px;
+	min-width: 24px;
+	margin: 8px 0px 0px 0px;
+}
+
+.infotext {
+	background-color: #DCD7CD;
+	border: 0px solid #161616;
+	border-radius: 16px;
+	font-size : 14px;
+	padding: 0px 5px 0px 5px;
+	margin: 10px 0px 10px 0px;
+	font-weight : bold;
+}
+
+.face {
+	background-size: 24px;
+	min-height: 24px;
+	min-width: 24px;
+	margin: 8px 0px 8px 0px;
+	border-radius: 100%;
+}
