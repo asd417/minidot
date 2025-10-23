@@ -17,3 +17,9 @@ Check out [**LAM’s work on Pixiv**](https://www.pixiv.net/en/users/17429)!
 - 🎵 **Cava Background** — audio-reactive visualizer  
 - 🎧 **Sidebar Spotify** — clean integration for music control  
 - 🕓 **Minimalistic Clock and Date** — elegant and unobtrusive display  
+
+
+## Demo
+<video src="screenshot/hyprLAM-rice.mp4" width="800" controls autoplay loop muted>
+  Your browser does not support the video tag.
+</video>
