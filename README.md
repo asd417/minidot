@@ -12,7 +12,7 @@ Check out [**LAM’s work on Pixiv**](https://www.pixiv.net/en/users/17429)!
 
 ---
 
-## ✨ Features
+## Features
 
 - 🎵 **Cava Background** — audio-reactive visualizer  
 - 🎧 **Sidebar Spotify** — clean integration for music control  
