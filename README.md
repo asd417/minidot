@@ -10,6 +10,8 @@
 🎨 **Credit:**  
 Check out [**LAM’s work on Pixiv**](https://www.pixiv.net/en/users/17429)!
 
+This is a heavily modified dotfile that combines works of [HyprZepyx](https://github.com/xZepyx/HyprZepyx) with [husseinhareb-eww](https://github.com/husseinhareb/hyprland-eww/tree/main)
+
 ---
 
 ## Features
