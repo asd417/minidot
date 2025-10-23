@@ -5,3 +5,5 @@ Minimalistic Hyprland Theme
 
 
 Wallpapers not included. (the edits are pretty simple to do DIY. I can not redistribute the artist's works.)
+
+Checkout LAM's work on Pixiv! https://www.pixiv.net/en/users/17429
