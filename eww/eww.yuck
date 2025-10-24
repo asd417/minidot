@@ -18,6 +18,7 @@
 ;; Music vars
 (defpoll SONG :interval "1s" `scripts/spotify/spotify-song.sh`)
 (defpoll PLAYING :interval "1s" "scripts/spotify/spotify-playing-get.sh")
+(defpoll MUTE :interval "1s" "scripts/mute.sh --status")
 (defpoll COVER :interval "1s" "scripts/spotify/spotify-artwork.sh")
 ;; Battery vars
 (defpoll BATICON :interval "1s" `scripts/battery.sh --icon`)
@@ -111,6 +112,19 @@
       (button :class "playbutton" :onclick "scripts/spotify/spotify-next.sh" (label :class "playtext" :text "⏭"))
     )
     (vol_slider)
+    (mute)
+  )
+)
+
+(defwidget mute []
+  (box
+    :width 10
+    :height 10
+    (button
+      :class "playbutton"
+      :onclick "scripts/mute.sh" 
+      (label :class {MUTE ? "textbase": "playtext"} :text "𝄞")
+    )
   )
 )
 
