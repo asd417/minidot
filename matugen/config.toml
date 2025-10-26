@@ -21,7 +21,7 @@ post_hook = "kill -SIGUSR1 $(pidof kitty)"
 [templates.hyprland] # Yep
 input_path = '~/.config/matugen/templates/hyprland-colors.conf'
 output_path = '~/.config/hypr/conf/colors.conf'
-post_hook = 'hyprctl reload'
+post_hook = '~/.config/hypr/apply-matugen.sh'
 
 [templates.gtk3]
 input_path = '~/.config/matugen/templates/gtk-3-colors.css'

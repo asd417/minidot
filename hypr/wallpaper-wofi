@@ -21,7 +21,6 @@ chosen=$(printf "$entries" | wofi --show dmenu)
 if [ -n "$chosen" ]; then
     full=$(find "$WALL_DIR" -type f -name "$chosen" | head -n1)
     matugen image "$full"
-    hyprctl reload
     swww img "$full" -t grow --transition-duration 1 --transition-fps 75
 fi 
 

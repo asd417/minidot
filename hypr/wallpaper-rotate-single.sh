@@ -3,7 +3,7 @@ set -euo pipefail
 
 # --- Config ---
 WALL_DIR="${WALL_DIR:-$HOME/Pictures/wallpapers}" # wallpaper directory
-INTERVAL_SECONDS="${INTERVAL_SECONDS:-120}" # how long to wait between changes
+INTERVAL_SECONDS="${INTERVAL_SECONDS:-600}" # how long to wait between changes
 TRANSITION="${TRANSITION:-grow}"
 TRANSITION_DURATION="${TRANSITION_DURATION:-1}"
 TRANSITION_FPS="${TRANSITION_FPS:-75}"
@@ -79,7 +79,6 @@ cycle_once() {
       matugen image "$img" || true
     fi
   fi
-  hyprctl reload
   echo "$img" >"$STATE_DIR/last_global.txt"
   apply_wallpaper_all "$img"
 }
